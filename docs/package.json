@@ -1,0 +1,19 @@
+{
+  "name": "Popprate LLC Corportate Site",
+  "version": "0.0.1",
+  "description": "The corporate site of Popprate LLC.",
+  "main": "index.js",
+  "authors": {
+    "name": "Popprate LLC",
+    "email": "popprate.llc@gmail.com"
+  },
+  "repository": "/Popprate LLC Corportate Site",
+  "scripts": {
+    "dev": "vuepress dev src",
+    "build": "vuepress build src"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "vuepress": "^1.5.3"
+  }
+}
