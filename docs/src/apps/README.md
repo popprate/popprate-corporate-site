@@ -4,14 +4,14 @@ sidebar: auto
 
 # Popprate Apps
 
-## popprate
+## Produc 1
 
-- Category: Communication
+- Category: ----
 - Android: comming soon..
 - iOS: comming soon..
 
-## popcalc
+## Product 2
 
-- Category: Utilities
+- Category: ----
 - Android: comming soon..
 - iOS: comming soon..
