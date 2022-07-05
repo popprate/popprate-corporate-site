@@ -18,7 +18,13 @@ module.exports = {
   head: [
     ['meta', { name: 'theme-color', content: '#44c0c2' }],
     ['meta', { name: 'apple-mobile-web-app-capable', content: 'yes' }],
-    ['meta', { name: 'apple-mobile-web-app-status-bar-style', content: 'black' }]
+    ['meta', { name: 'apple-mobile-web-app-status-bar-style', content: 'black' }],
+    ['script', { async: true, src: 'https://www.googletagmanager.com/gtag/js?id=G-GF8Z9BMW5M' }],
+    ['script', {}, [
+      "window.dataLayer=window.dataLayer||[];",
+      "function gtag(){dataLayer.push(arguments);}",
+      "gtag('js',new Date());gtag('config','G-GF8Z9BMW5M');"
+    ]]
   ],
 
   /**
@@ -57,7 +63,7 @@ module.exports = {
   },
 
   /**
-   * Apply plugins，ref：https://v1.vuepress.vuejs.org/zh/plugin/
+   * Apply plugins，ref：https://v1.vuepress.vuejs.org/plugin/
    */
   plugins: [
     '@vuepress/plugin-back-to-top',
