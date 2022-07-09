@@ -44,7 +44,7 @@ module.exports = {
         link: '/apps/',
       },
       {
-        text: 'About',
+        text: 'About us',
         link: '/about/'
       }
     ],
