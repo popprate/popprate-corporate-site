@@ -25,7 +25,10 @@ export default defineUserConfig({
           ]
         }
       ],
-    }
+    },
+    contributors: false,
+    lastUpdated: false,
+    footer: '© 2022 Popprate LLC.'
   }),
 
   title: 'Popprate LLC',
