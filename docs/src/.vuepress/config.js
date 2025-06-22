@@ -44,6 +44,10 @@ module.exports = {
         link: '/apps/',
       },
       {
+        text: 'Privacy',
+        link: '/privacy'
+      },
+      {
         text: 'About us',
         link: '/about/'
       }
@@ -67,5 +71,6 @@ module.exports = {
   plugins: [
     '@vuepress/plugin-back-to-top',
     '@vuepress/plugin-medium-zoom',
+    '@vuepress/plugin-toc',
   ]
 }
