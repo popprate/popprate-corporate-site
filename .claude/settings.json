@@ -1,0 +1,12 @@
+{
+  "permissions": {
+    "allow": [
+      "WebFetch(domain:vuepress.vuejs.org)",
+      "Bash(cp:*)",
+      "Bash(mkdir:*)",
+      "Bash(find:*)",
+      "Bash(pnpm:*)"
+    ],
+    "deny": []
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "name": "popprate-corporate-site",
+  "version": "0.0.1",
+  "description": "The corporate site of Popprate LLC.",
+  "type": "module",
+  "scripts": {
+    "docs:dev": "vuepress dev docs",
+    "docs:build": "vuepress build docs"
+  },
+  "devDependencies": {
+    "@vuepress/bundler-vite": "next",
+    "@vuepress/theme-default": "next",
+    "vuepress": "next",
+    "vue": "^3.5.17",
+    "sass-embedded": "^1.83.0"
+  },
+  "license": "MIT"
+}
