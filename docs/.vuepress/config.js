@@ -1,6 +1,7 @@
 import { defineUserConfig } from 'vuepress'
 import { defaultTheme } from '@vuepress/theme-default'
 import { viteBundler } from '@vuepress/bundler-vite'
+import { redirectPlugin } from 'vuepress-plugin-redirect'
 
 export default defineUserConfig({
   bundler: viteBundler(),
@@ -46,5 +47,12 @@ export default defineUserConfig({
     `]
   ],
 
-  plugins: []
+  plugins: [
+    redirectPlugin({
+      config: {
+        '/privacy.html': '/privacy/20250701-a.html',
+        '/terms-of-use.html': '/terms-of-use/20250701-a.html'
+      }
+    })
+  ]
 })
